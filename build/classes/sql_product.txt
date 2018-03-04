@@ -1,0 +1,13 @@
+CREATE TABLE product(
+id VARCHAR(15) ,
+type VARCHAR(30),
+name VARCHAR(20),
+price VARCHAR(15),
+modifiedTime Time,
+keeper VARCHAR(20),
+location VARCHAR(70),
+quantity INT,
+PRIMARY KEY(id)
+)ENGINE=InnoDB DEFAULT CHARSET=UTF8;
+
+INSERT INTO product(id,type,name,price,modifiedTime,keeper,location,quantity) values('3DEN-2995','OA','笔记本办公电脑','3500','2017-09-01 12:23:23','Tom Lou','A栋1楼大办公区','1'),('3DEN-2996','OA','笔记本办公电脑','3500','2017-09-02 12:13:13','Kitty Ke','A栋2楼大办公区','1');
